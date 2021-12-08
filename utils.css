@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&family=Bonheur+Royale&display=swap');
+:root{
+    --main-bg-color: rgb(141, 34, 141);
+    --font1:'Baloo Bhai 2',cursive;
+    --font2:'Fleur De Leah', cursive;
+    --font3:'Bonheur Royale',cursive;
+    --font4:'Bodoni Moda',cursive;
+}
+.font1{
+    font-family: var(--font1);
+}
+.font2{
+    font-family: var(--font2);
+}
+.font3{
+    font-family: var(--font3);
+}
+.font4{
+    font-family: var(--font4);
+}
+.margin{
+    margin-top: 20px;
+}
+/* .center{
+    text-align: center;
+} */
+.max-width-1{
+    max-width: 80vw;
+}
+.max-width-2{
+    max-width: 60vw;
+}
+.m-auto{
+    margin: auto;
+}
+.my-2{
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+.btn{
+    padding: 0px 7px;
+    border: 2px solid black;
+    border-radius: 7px;
+    font-size: 16px;
+    font-family: var(--font1);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.btn:hover{
+    color: white;
+    background: var(--main-bg-color);
+}
+.form-input{
+    padding: 0px 5px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 0 10px;
+    font-family: var(--font1);
+}
+.form-box input ,textarea{
+    width: 40vw;
+    padding: 7px 6px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 0;
+    font-family: var(--font1);
+}

@@ -1,0 +1,15 @@
+.contact-content{
+    display: block;
+    height: 80vh;
+    /* height: 80vw; */
+    background-color: rgb(208, 177, 211, 0.9);
+    margin-top: 6px;
+    padding: 9px;
+    /* background-image: url('C:\Users\Lenovo\OneDrive\Desktop\Newfolder\pics\article1.jpg'); */
+    position: relative;
+    /* border-radius: 10px; */
+    font-family: var(--font1);
+}
+.contact-form{
+  
+}
